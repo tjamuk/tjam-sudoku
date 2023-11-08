@@ -1,0 +1,56 @@
+
+/*:root {*/
+/*    --black-text:black;*/
+/*    --dark-blue-text:#120a29;*/
+/*    --dark-red-text:#520000;*/
+/*    --light-red-text:#730101;*/
+
+/*    --white-background:floralwhite;*/
+/*    --med-purple-background:#ff82f7;*/
+/*    --light-purple-background:#ffb5fa;*/
+/*    --dark-red-background:#fc3f3f;*/
+/*    --light-red-background:#ff5c5c;*/
+/*}*/
+
+/**/
+
+#grid * {
+    background-image: none;
+    border-radius: 0;
+    font-size: 20px;
+}
+
+#toggle_button_reg_user {
+    color: green;
+    background-color: white;
+}
+
+#toggle_button_reg_user:checked {
+    background-color: #b4a7d6ff;
+}
+
+#toggle_button_possible_conflict_user {
+    color: green;
+    background-color: #e9e5f2ff;
+}
+
+#toggle_button_possible_conflict_computer {
+    color: black;
+    background-color: #e9e5f2ff;
+}
+
+
+#toggle_button_reg_computer {
+    color: black;
+    background-color: white;
+}
+
+#toggle_button_rulebreak_placed {
+    color: #520000;
+    background-color: #fc3f3f;
+}
+
+#toggle_button_rulebreak_conflicting {
+    color: #730101;
+    background-color: #ff5c5c;
+}
